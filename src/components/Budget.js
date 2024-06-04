@@ -11,7 +11,7 @@ const Budget = () => {
     const handleBudgetChange = (event) => {
         let value = parseInt(event.target.value);
         if (value > 20_000) {
-            alert("Budget value cannot exceed 20,000");
+            alert(`Budget value cannot exceed ${currency}20,000`);
             return;
         }
         else if (value < totalExpenses) {
