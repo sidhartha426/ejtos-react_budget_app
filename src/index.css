@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.currency-select-label{
+  display: flex;
+}
+
+.currency-select{
+  background-color: lawngreen;
+  width: 100%;
+  display: inline-block;
+}
+
+.currency-select option:checked{
+  background-color: white;
+}
+.form-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.form-div p{
+  margin: 0px;
+}

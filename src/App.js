@@ -15,16 +15,16 @@ const App = () => {
             <div className='container'>
                 <h1 className='mt-3'>Company's Budget Allocation</h1>
                 <div className='row mt-3'>
-                    <div className='col-sm'>
+                    <div className='col-4'>
                         <Budget />
                     </div>
-                    <div className='col-sm'>
+                    <div className='col'>
                         <RemainingBudget />
                     </div>
-                    <div className='col-sm'>
+                    <div className='col'>
                         <ExpenseTotal />
                     </div>
-                    <div className='col-sm'>
+                    <div className='col'>
                         <Currency />
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const App = () => {
                 <h3 className='mt-3'>Change allocation</h3>
                 <div className='row mt-3'>
                     <div className='col-sm'>
-                        <AllocationForm/>
+                        <AllocationForm />
                     </div>
                 </div>
             </div>
